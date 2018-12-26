@@ -17,5 +17,6 @@ setup(name='re_iter',
       author_email='mikhail.erekhinsky@gmail.com',
       url='https://github.com/amnezzia/reiter',
       packages=find_packages(exclude=['tests*']),
-      install_requires=['pathos']
+      install_requires=['pathos',
+                        'cranial-common']
       )
